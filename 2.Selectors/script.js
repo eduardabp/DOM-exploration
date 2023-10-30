@@ -11,3 +11,13 @@ for (const image of images) {
         image.style.display = "none";
     }
 }
+
+const paragraphs = document.querySelectorAll("p");
+
+for (const paragraph of paragraphs) {
+    console.log(paragraph.innerHTML);
+    if(paragraph.classList.length > 0) {
+        console.log(paragraph.className);
+    }
+}
+
