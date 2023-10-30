@@ -21,3 +21,13 @@ for (const paragraph of paragraphs) {
     }
 }
 
+for (i=0; i<paragraphs.length; i++) {
+    let paragraph = paragraphs[i];
+    if (paragraph.classList.length <= 0) {
+        let r = Math.floor(Math.random() * 254);
+        let g = Math.floor(Math.random() * 254);
+        let b = Math.floor(Math.random() * 254);
+        let randomColor = "rgb(" + r + ", " + g + ", " + b + ")";
+        paragraph.style.backgroundColor = randomColor;
+    }
+}
