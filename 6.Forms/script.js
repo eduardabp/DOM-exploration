@@ -19,3 +19,27 @@ const checkAge = (e) => {
 const age = document.getElementById("age");
 age.addEventListener('keyup', checkAge);
 
+
+const password = document.getElementById("pwd");
+const confirmPassword = document.getElementById("pwd-confirm");
+
+const checkPasswordLength = (e) => {
+    if (e.target.value.length < 6) {
+        e.target.style.border = "6px solid red";
+    }
+    else {
+        e.target.style.border = "none";
+    }
+}
+
+const checkConfirmationPassword = (e) => {
+    if (e.target.value !== password.value) {
+        e.target.style.border = "6px solid red";
+    }
+    else {
+        e.target.style.border = "none";
+    }
+}
+
+password.addEventListener('keyup', checkPasswordLength);
+confirmPassword.addEventListener('keyup', checkConfirmationPassword);
