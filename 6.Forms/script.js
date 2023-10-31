@@ -7,7 +7,7 @@ const typeName = (e) => {
 }
 
 const firstName = document.getElementById("firstname");
-firstName.addEventListener('keyup', typeName);
+firstName.addEventListener("keyup", typeName);
 
 const checkAge = (e) => {
     if (e.target.value >= 18) {
@@ -17,7 +17,7 @@ const checkAge = (e) => {
 }
 
 const age = document.getElementById("age");
-age.addEventListener('keyup', checkAge);
+age.addEventListener("keyup", checkAge);
 
 
 const password = document.getElementById("pwd");
@@ -41,5 +41,20 @@ const checkConfirmationPassword = (e) => {
     }
 }
 
-password.addEventListener('keyup', checkPasswordLength);
-confirmPassword.addEventListener('keyup', checkConfirmationPassword);
+password.addEventListener("keyup", checkPasswordLength);
+confirmPassword.addEventListener("keyup", checkConfirmationPassword);
+
+const toggleColorMode = (e) => {
+    let body = document.querySelector("body");
+    if (e.target.value === "dark") {
+        body.style.backgroundColor = "black";
+        body.style.color = "white";
+    }
+    else {
+        body.style.backgroundColor = "white";
+        body.style.color = "black";
+    }
+}
+
+const colorMode = document.getElementById("toggle-darkmode");
+colorMode.addEventListener("change", toggleColorMode);
