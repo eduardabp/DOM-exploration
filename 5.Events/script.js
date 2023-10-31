@@ -11,6 +11,7 @@ const clickOnSquare = (e) => {
   const newSquare = document.createElement("div");
   newSquare.classList.add("displayedsquare");
   newSquare.classList.add(e.target.classList[1]);
+  newSquare.addEventListener("click", displayColor);
 
   const parent = document.querySelector(".displayedsquare-wrapper");
   parent.appendChild(newSquare);
@@ -29,7 +30,7 @@ for (let actionSquare of actionSquares) {
 }
 
 const keyEvent = (e) => {
-  if (e.code == "Space") {
+  if (e.code === "Space") {
     let r = Math.floor(Math.random() * 254);
     let g = Math.floor(Math.random() * 254);
     let b = Math.floor(Math.random() * 254);
@@ -44,13 +45,13 @@ const keyEvent = (e) => {
     logList.appendChild(logItem);
   }
 
-  else if (e.code == "KeyL") {
+  else if (e.code === "KeyL") {
     const list = document.getElementsByTagName("li");
     while (list.length > 0) {
       list[0].remove();
     }
   }
-  else if (e.code == "KeyS") {
+  else if (e.code === "KeyS") {
     const squares = document.getElementsByClassName("displayedsquare");
     while (squares.length > 0) {
       squares[0].remove();
@@ -62,3 +63,7 @@ const body = document.querySelector("body");
 body.addEventListener("keyup", keyEvent);
 
 
+const displayColor = (e) => {
+  console.log('hello');
+  alert("Hello! I am a " + e.target.classList[1] + " square.")
+}
