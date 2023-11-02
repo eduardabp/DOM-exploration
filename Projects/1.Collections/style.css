@@ -1,0 +1,32 @@
+:root {
+    --light-blue: #BAC7E5;
+    --dark-blue: #7988B7;
+    --navy: #3C3C4F;
+    --light-orange: #FFBE71;
+    --dark-orange: #E87B31;
+    --light-green: #DCE5FF;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    background-color: var(--dark-blue);
+    color: var(--light-orange);
+    padding: 2vw 5vw;
+    width: 75%;
+    gap: 2vw;
+    margin: 2vw auto;
+}
+
+header div {
+    display: flex;
+    flex-direction: column;
+    gap: 2vw;
+    margin: auto;
+}
