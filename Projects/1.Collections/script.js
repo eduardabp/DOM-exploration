@@ -7,7 +7,7 @@ collection.forEach(book => {
     const image = document.createElement("img");
     image.classList.add("cover");
     image.src = book.cover;
-    image.alt = document.createTextNode("an orange cover displaying a man alone in the desert");
+    image.alt = book.altText;
     card.appendChild(image);
 
     const link = document.createElement("a");
