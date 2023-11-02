@@ -12,6 +12,12 @@
     padding: 0;
 }
 
+body {
+    background-color: var(--light-green);
+    font-family: "Quicksand", sans-serif;
+    font-weight: 500;
+}
+
 header {
     display: flex;
     flex-direction: row;
@@ -22,6 +28,8 @@ header {
     width: 75%;
     gap: 2vw;
     margin: 2vw auto;
+    font-family: "Arvo", sans-serif;
+    align-items: center;
 }
 
 header div {
@@ -29,4 +37,97 @@ header div {
     flex-direction: column;
     gap: 2vw;
     margin: auto;
+}
+
+main {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-gap: 15px;
+    margin: 5vw 6vw;
+}
+
+.cover {
+    width: 100%;
+    height: 350px;
+}
+
+section {
+    background-color: var(--light-blue);
+    color: var(--navy);
+}
+
+h3, h4, p, a {
+    padding: 0 1vw;
+}
+
+h3 {
+    font-size: 25px;
+}
+
+h4 {
+    font-size: 20px;
+}
+
+h5 {
+    font-size: 18px;
+}
+
+p {
+    font-size: 16px;
+    padding: 1vw;
+}
+
+a {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: var(--navy);
+}
+
+a:visited {
+    color: var(--navy);
+}
+
+.icon {
+    width: auto;
+    height: 60px;
+    padding-left: 5px;
+}
+
+@media (max-width: 559px) {
+    main {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(10, 1fr);
+        grid-gap: 15px;
+        margin: 5vw 6vw;
+    }
+    .cover {
+        object-fit: contain;
+    }
+    header {
+        flex-direction: column;
+    }
+}
+
+@media (min-width: 560px) and (max-width: 1023px) {
+    main {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(5, 1fr);
+        grid-gap: 15px;
+        margin: 5vw 6vw;
+    }
+    .cover {
+        width: auto;
+        height: 350px;
+        display: block;
+        margin: 0 auto;
+    }
+
+    header img {
+        width: 30vw;
+        height: 15vw;
+    }
 }
