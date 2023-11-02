@@ -2,7 +2,7 @@ const collection = [
     {
         name: "Dune",
         author: "Frank Herbert",
-        synopsis: "Dune is a science fiction epic that takes place on the desert planet of Arrakis, where the most valuable substance in the universe - melange - is mined. The novel follows the story of Paul Atreides, a young nobleman, as he navigates the complex political and ecological landscape of Dune, facing power struggles, environmental challenges, and the prophecy of a messiah.",
+        synopsis: "This epic book takes place on the desert planet of Arrakis, where the most valuable substance in the universe - melange - is mined. The novel follows the story of Paul Atreides, a young nobleman, as he navigates the complex political and ecological landscape of Dune, facing power struggles, environmental challenges, and the prophecy of a messiah.",
         adaptations: "Dune (movie) - 1984 / Dune (movie) - 2021",
         cover: "/images/dune.jpg",
         rating: "4.26",
@@ -38,8 +38,8 @@ const collection = [
     {
         name: "The Hitchhiker's Guide to the Galaxy",
         author: "Douglas Adams",
-        synopsis: "This humorous and absurd science fiction series begins with the accidental hero, Arthur Dent, who is saved from the destruction of Earth by Ford Prefect, an alien writer for the titular guidebook. The story follows their intergalactic adventures and the bizarre characters they encounter.",
-        adaptations: "The Hitchhiker's Guide to the Galaxy (BBC series) - 1981 / The Hitchhiker's Guide to the Galaxy (movie) - 2005",
+        synopsis: "This humorous and absurd series begins with the accidental hero, Arthur Dent, who is saved from the destruction of Earth by Ford Prefect, an alien writer for the titular guidebook. The story follows their intergalactic adventures and the bizarre characters they encounter.",
+        adaptations: "The Hitchhiker's Guide to the Galaxy (movie) - 2005",
         cover: "/images/hitchhikers.jpg",
         rating: "4.23",
         goodreads: "https://www.goodreads.com/book/show/11.The_Hitchhiker_s_Guide_to_the_Galaxy?ref=nav_sb_ss_1_5",
