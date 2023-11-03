@@ -41,7 +41,7 @@ const menu = [
     },
     {
         item: "Baião de Dois",
-        ingredients: "a traditional Brazilian dish combining rice, black-eyed peas, sausage, onions, garlic, bell peppers and various spices and seasonings.",
+        ingredients: "A traditional Brazilian dish combining rice, black-eyed peas, sausage, onions, garlic, bell peppers and various spices and seasonings.",
         price: "16,90",
         tag: ["savory", "main"],
         picture: "/images/baiao.jpg",
