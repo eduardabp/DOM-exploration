@@ -2,7 +2,7 @@ const menu = [
     {
         item: "Feijoada",
         ingredients: "Black beans, pork (sausage, ribs, and other cuts), onions, garlic, bay leaves, and various spices.",
-        price: "23,50",
+        price: "23.50",
         tag: ["savory", "main"],
         picture: "/images/feijoada.webp",
         altText: "a pan full of black beans and meat, with farofa on top",
@@ -10,7 +10,7 @@ const menu = [
     {
         item: "Moqueca",
         ingredients: "Fish or shrimp, coconut milk, tomatoes, onions, garlic, bell peppers, cilantro, and palm oil (dendê oil).",
-        price: "21,00",
+        price: "21.00",
         tag: ["savory", "main"],
         picture: "/images/moqueca.jpg",
         altText: "a pan with yellow sauce and shrimps",
@@ -18,7 +18,7 @@ const menu = [
     {
         item: "Coxinha",
         ingredients: "Shredded chicken, wheat flour, chicken broth, onions, garlic, and cream cheese, shaped into a teardrop and deep-fried.",
-        price: "3,50",
+        price: "3.50",
         tag: ["savory", "snack"],
         picture: "/images/coxinha.jpg",
         altText: "a rounded snack with crispy crust and shredded chicken filling",
@@ -26,7 +26,7 @@ const menu = [
     {
         item: "Carne de Sol",
         ingredients: " Sun-dried salted beef, typically served with aipim (cassava) and 'coalho' cheese.",
-        price: "20,90",
+        price: "20.90",
         tag: ["savory", "main"],
         picture: "/images/carnedesol.jpg",
         altText: "a plate with cheese slices, meat and cassava",
@@ -34,7 +34,7 @@ const menu = [
     {
         item: "Pão de Queijo",
         ingredients: "Also known as Brazilian cheese bread, it is made from tapioca flour, cheese, milk, vegetable oil, eggs, and salt.",
-        price: "3,50",
+        price: "3.50",
         tag: ["savory", "snack"],
         picture: "/images/paodequeijo.jpg",
         altText: "a round and crusty snack",
@@ -42,7 +42,7 @@ const menu = [
     {
         item: "Baião de Dois",
         ingredients: "A traditional Brazilian dish combining rice, black-eyed peas, sausage, onions, garlic, bell peppers and various spices and seasonings.",
-        price: "16,90",
+        price: "16.90",
         tag: ["savory", "main"],
         picture: "/images/baiao.jpg",
         altText: "a red bowl full of rice, beans and meat",
@@ -50,7 +50,7 @@ const menu = [
     {
         item: "Maniçoba",
         ingredients: "Maniçoba is a curious dish made from poisonous leaves (yuca or cassava leaves), pork meat and various seasonings, slow-cooked to create a rich and flavorful stew.",
-        price: "24,50",
+        price: "24.50",
         tag: ["savory", "main"],
         picture: "/images/manicoba.jpg",
         altText: "a bowl full of a green sauce and rice",
@@ -58,7 +58,7 @@ const menu = [
     {
         item: "Acarajé",
         ingredients: "Black-eyed pea dough, shrimp, palm oil (dendê oil), and various seasonings, deep-fried into a ball.",
-        price: "12,90",
+        price: "12.90",
         tag: ["savory", "main", "snack"],
         picture: "/images/acaraje.webp",
         altText: "a fried dought with shrimp and spicy sauce filling",
@@ -66,7 +66,7 @@ const menu = [
     {
         item: "Picanha",
         ingredients: "Picanha beef cut served with cassava, farofa and chimichurri sauce.",
-        price: "27,00",
+        price: "27.00",
         tag: ["savory", "main"],
         picture: "/images/picanha.png",
         altText: "a square dish with picanha slices, cassava and two small bowls with farofa and sauce",
@@ -74,7 +74,7 @@ const menu = [
     {
         item: "Brigadeiro",
         ingredients: "Sweetened condensed milk, cocoa powder, butter, and chocolate sprinkles, rolled into small chocolate truffles.",
-        price: "2,50",
+        price: "2.50",
         tag: ["sweet", "snack"],
         picture: "/images/brigadeiro.jpg",
         altText: "a small round brown pastry",
@@ -82,7 +82,7 @@ const menu = [
     {
         item: "Pudim",
         ingredients: "Dessert made from sweetened condensed milk, eggs, sugar, and a caramel topping, baked into a creamy and caramel-flavored custard.",
-        price: "5,00",
+        price: "5.00",
         tag: ["sweet", "snack"],
         picture: "/images/pudim.jpg",
         altText: "a flan with caramel sauce",
@@ -90,7 +90,7 @@ const menu = [
     {
         item: "Pamonha",
         ingredients: "Pamonha is a Brazilian dish made from ground fresh corn, sugar, and cheese, wrapped in corn husks and boiled or steamed to create a sweet and savory corn pudding.",
-        price: "7,50",
+        price: "7.50",
         tag: ["savory", "sweet", "snack", "main"],
         picture: "/images/pamonha.jpg",
         altText: "a yellow cooked corn paste wrapped in corn skin",
@@ -98,7 +98,7 @@ const menu = [
     {
         item: "Bolo de Rolo",
         ingredients: "Sponge cake made with eggs, sugar, and wheat flour, rolled with guava paste.",
-        price: "9,50",
+        price: "9.50",
         tag: ["sweet", "snack"],
         picture: "/images/boloderolo.png",
         altText: "a rolled cake with intercalated layers of dough and filling",
@@ -106,7 +106,7 @@ const menu = [
     {
         item: "Tapioca de Doce de Leite com Banana",
         ingredients: "A popular Brazilian snack made from cassava starch, filled with banana and doce de leite, and folded into a pancake-like shape.",
-        price: "5,00",
+        price: "5.00",
         tag: ["sweet", "snack"],
         picture: "/images/tapioca.jpg",
         altText: "a folded tapioca with banana and doce de leite",
@@ -114,7 +114,7 @@ const menu = [
     {
         item: "Caipirinha",
         ingredients: "Caipirinha is one of Brazil's most famous and iconic cocktails, made with cachaça, lime, sugar and ice, it is a delightful balance between sweet and sour.",
-        price: "11,00",
+        price: "11.00",
         tag: ["drink", "alcoholic"],
         picture: "/images/caipirinha.webp",
         altText: "a glass filled with lime slices and ice",
@@ -122,7 +122,7 @@ const menu = [
     {
         item: "Guaraná Antarctica",
         ingredients: "Guarana Antarctica is a popular brazilian soft drink made with guarana fruits and ice.",
-        price: "4,50",
+        price: "4.50",
         tag: ["drink"],
         picture: "/images/antarctica.png",
         altText: "a green soft drink bottle with a filled glass on the side",
@@ -130,7 +130,7 @@ const menu = [
     {
         item: "Açaí Smoothie",
         ingredients: "Açaí Smoothie is prepared with açaí berries, banana and guarana syrup, blended with ice.",
-        price: "6,00",
+        price: "6.00",
         tag: ["drink", "snack"],
         picture: "/images/acai.jpg",
         altText: "a glass filled with a purple smoothie and some berries on the side",
@@ -138,7 +138,7 @@ const menu = [
     {
         item: "Caldo de Cana",
         ingredients: "Also known as 'sugarcane juice', it is a popular and refreshing drink in Brazil made from freshly squeezed sugarcane stalks. Is served over ice and with a pinch of lemon juice.",
-        price: "7,00",
+        price: "7.00",
         tag: ["drink"],
         picture: "/images/caldodecana.jpg",
         altText: "a jar filled with sugarcane juice, and some cane stalks on side",
