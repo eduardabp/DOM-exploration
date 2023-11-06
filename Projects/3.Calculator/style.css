@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat (6, 1fr);
+    width: 500px;
+    height: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.span-four {
+    grid-column-start: span 4;
+    border: 2px solid rgb(168, 168, 248);
+}
+
+.span-two {
+    grid-column-start: span 2;
+}
