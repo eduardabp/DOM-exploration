@@ -6,8 +6,8 @@ You can check the guidelines for this exercise by [following this link to Verou-
 
 Here are the Projects results:
 
-[Collections](https://scificollection.netlify.app/)
-[Ghost Kitchen](https://saudadebraziliankitchen.netlify.app/)
+[Collections](https://scificollection.netlify.app/) 
+[Ghost Kitchen](https://saudadebraziliankitchen.netlify.app/)  
 [Calculator](https://eduarda-calculator.netlify.app/)
 
 ### [1. INTRODUCTION](https://github.com/becodeorg/GNT-Verou-5/tree/main/1.The-Field/11.DOM-exploration/1.Introduction)
