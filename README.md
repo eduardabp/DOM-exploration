@@ -6,7 +6,7 @@ You can check the guidelines for this exercise by [following this link to Verou-
 
 Here are the Projects results:
 
-[Collections](https://scificollection.netlify.app/) 
+[Collections](https://scificollection.netlify.app/)  
 [Ghost Kitchen](https://saudadebraziliankitchen.netlify.app/)  
 [Calculator](https://eduarda-calculator.netlify.app/)
 
