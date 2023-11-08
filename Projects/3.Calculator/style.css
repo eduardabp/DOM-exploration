@@ -16,6 +16,13 @@ main {
 .span-four {
     grid-column-start: span 4;
     border: 2px solid rgb(168, 168, 248);
+    display: flex;
+    flex-direction: row;
+    font-size: 60px;
+    font-weight: 700;
+    padding: 10px;
+    word-wrap: break-word;
+    word-break: break-all;
 }
 
 .span-two {
