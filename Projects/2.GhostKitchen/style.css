@@ -42,10 +42,11 @@ nav {
     font-family: "Noto Serif";
     color: white;
     padding: 1vw;
-    display: flex;
-    flex-direction: row;
-    justify-content:space-between;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10vw;
     align-items: center;
+    justify-items: center;
 }
 
 .color-mode {
@@ -285,4 +286,39 @@ footer {
     padding: 8px;
     text-align: center;
     font-family: "Noto Serif";
+}
+
+@media (max-width: 559px) {
+  html {
+    width: 100vw;
+  }
+  main {
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+      grid-template-rows: repeat(10, 1fr);
+      grid-gap: 15px;
+      margin: 5vw 6vw;
+  }
+  header img {
+    height: 60vh;
+      }
+  h2 {
+    font-size: 20px;
+  }
+  h1 {
+    font-size: 40px;
+  }
+}
+
+@media (min-width: 560px) and (max-width: 1023px) {
+
+  header img {
+height: 60vh;
+  }
+  h2 {
+    font-size: 20px;
+  }
+  h1 {
+    font-size: 40px;
+  }
 }
